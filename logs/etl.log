@@ -1,0 +1,6 @@
+2026-02-05 15:12:20,651 - INFO - ETL started
+2026-02-05 15:12:20,682 - INFO - ETL completed successfully
+2026-02-05 15:41:50,603 - INFO - ETL started
+2026-02-05 15:41:50,604 - INFO - Extracted 5 records
+2026-02-05 15:41:50,606 - INFO - Transformed to 2 records
+2026-02-05 15:41:50,607 - INFO - Data loaded successfully

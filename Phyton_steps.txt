@@ -1,0 +1,32 @@
+/c/ETL_pipeline_in_python
+git clone https://github.com/sajidprofessional/python-etl-pipeline.git
+ pwd
+/c/ETL_pipeline_in_python
+/C/ETL_pipeline_in_python/python-etl-pipeline
+pwd
+mkdir data etl logs
+ cd data
+ mkdir raw processed
+python etl/main.py
+bash: $'\E[200~python': command not found
+
+python --version
+Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.
+
+$ py --version
+Python 3.13.1
+ /C/ETL_pipeline_in_python/python-etl-pipeline (main)-- this will create package
+touch etl/__init__.py
+$ py etl/main.py
+Traceback (most recent call last):
+  File "C:\ETL_pipeline_in_python\python-etl-pipeline\etl\main.py", line 4, in <module>
+    from etl.extract import extract_data
+ModuleNotFoundError: No module named 'etl'
+ py -m etl.main
+ ls data/processed
+clean_output.csv
+ls data/raw
+patient_data.csv
+ cat logs/etl.log
+
+

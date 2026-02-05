@@ -1,0 +1,3 @@
+patient_id,visit_date,amount,status
+101,2024-01-01,500.0,PAID
+102,2024-01-01,700.0,PAID
