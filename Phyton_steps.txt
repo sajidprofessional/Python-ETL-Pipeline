@@ -28,5 +28,12 @@ clean_output.csv
 ls data/raw
 patient_data.csv
  cat logs/etl.log
+---------------version control 
+git add .
+git commit -m "Add logging and finalize ETL pipeline"
+git push origin main
+
+
+
 
 
